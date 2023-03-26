@@ -2,8 +2,8 @@ import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
     fonts: {
-        heading: `'Hanken Grotesk', sans-serif`,
-        body: `'Lato', sans-serif`,
+        heading: `'Lato', sans-serif`,
+        body: `'Karla', sans-serif`,
     }
 });
 

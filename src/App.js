@@ -4,6 +4,7 @@ import React from "react";
 import Home from "./components/Home/Home";
 
 // Outside Libraries
+import '@fontsource/karla'
 import '@fontsource/hanken-grotesk'
 import '@fontsource/lato'
 import { ChakraProvider } from "@chakra-ui/react";

@@ -1,15 +1,14 @@
-import { Heading, Text } from "@chakra-ui/react";
 import React from "react";
+import { Heading, Text, Box } from "@chakra-ui/react";
+
+// Personal Components
+import Header from "./Header";
 
 const Home = () => {
   return (
-    <div>
-      <Heading fontWeight="bold">Hello, I'm ChatGPT</Heading>
-      <Text>
-        I'm a language model trained by OpenAI. I can help you with all kinds of
-        questions and tasks!
-      </Text>
-    </div>
+    <Box paddingX="20vw" paddingY="15vh">
+        <Header />
+    </Box>
   );
 };
 
