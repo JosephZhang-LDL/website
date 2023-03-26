@@ -1,14 +1,25 @@
 import React from "react";
-import { Heading, Text, Box } from "@chakra-ui/react";
+import { Text, Flex, Box } from "@chakra-ui/react";
 
 // Personal Components
 import Header from "./Header";
 
 const Home = () => {
   return (
-    <Box paddingX="20vw" paddingY="15vh">
+    <Flex
+      paddingX="20vw"
+      paddingTop="15vh"
+      paddingBottom="8vh"
+      flexDir="column"
+      height="100vh"
+    >
+      <Flex flex="1" flexDir="column">
         <Header />
-    </Box>
+      </Flex>
+      <Flex flexShrink="0">
+        <Text>Made with React</Text>
+      </Flex>
+    </Flex>
   );
 };
 
