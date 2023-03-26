@@ -37,6 +37,9 @@ const Header = () => {
           objectFit="cover"
           src={profile}
           alt="Profile Picture"
+          boxShadow="0px 4px 8px rgba(0, 0, 0, 0.3)"
+          transition="box-shadow 0.2s ease-in-out"
+          _hover={{ boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.3)" }}
         />
       </Flex>
     </Flex>
